@@ -66,4 +66,4 @@ def predict():
     { 'movieName': str(movie3Name), 'movieId': str(movie3Id), 'poster': str(poster3)},{'movieName': str(movie4Name), 'movieId': str(movie4Id), 'poster': str(poster4)},{'movieName': str(movie5Name), 'movieId': str(movie5Id), 'poster': str(poster5)})
 
 if __name__ == '__main__':
-    app.run(debug=False,host='0.0.0.0')
+    app.run(host='0.0.0.0',port=5000)
