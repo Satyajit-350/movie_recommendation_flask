@@ -10,7 +10,7 @@ similarity=pickle.load(open('./similarity.pkl','rb'))
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/recommendations', methods=['GET', 'POST']) 
 def home():
     return "Hello World"
 
